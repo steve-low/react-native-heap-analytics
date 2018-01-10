@@ -13,8 +13,6 @@
 		4086A4C120069911008B64F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4086A4BA2006987C008B64F8 /* Foundation.framework */; };
 		4086A4C320069927008B64F8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4086A4BC200698A0008B64F8 /* Security.framework */; };
 		4086A4C42006992D008B64F8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4086A4BD200698B2008B64F8 /* SystemConfiguration.framework */; };
-		4086A5202006A541008B64F8 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4086A4BB20069896008B64F8 /* libicucore.tbd */; };
-		4086A5222006A541008B64F8 /* libicucore.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4086A5212006A541008B64F8 /* libicucore.A.tbd */; };
 		4DE526AA1ECD4A340059312E /* RNHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE526A91ECD4A340059312E /* RNHeap.m */; };
 /* End PBXBuildFile section */
 
@@ -50,8 +48,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4086A5222006A541008B64F8 /* libicucore.A.tbd in Frameworks */,
-				4086A5202006A541008B64F8 /* libicucore.tbd in Frameworks */,
 				4086A4B720069719008B64F8 /* libHeap.a in Frameworks */,
 				4086A4C02006990B008B64F8 /* CFNetwork.framework in Frameworks */,
 				4086A4C120069911008B64F8 /* Foundation.framework in Frameworks */,
