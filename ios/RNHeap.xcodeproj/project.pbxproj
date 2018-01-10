@@ -13,6 +13,8 @@
 		4086A4C120069911008B64F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4086A4BA2006987C008B64F8 /* Foundation.framework */; };
 		4086A4C320069927008B64F8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4086A4BC200698A0008B64F8 /* Security.framework */; };
 		4086A4C42006992D008B64F8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4086A4BD200698B2008B64F8 /* SystemConfiguration.framework */; };
+		4086A5202006A541008B64F8 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4086A4BB20069896008B64F8 /* libicucore.tbd */; };
+		4086A5222006A541008B64F8 /* libicucore.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4086A5212006A541008B64F8 /* libicucore.A.tbd */; };
 		4DE526AA1ECD4A340059312E /* RNHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE526A91ECD4A340059312E /* RNHeap.m */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +40,7 @@
 		4086A4BC200698A0008B64F8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		4086A4BD200698B2008B64F8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		4086A4BE200698B9008B64F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4086A5212006A541008B64F8 /* libicucore.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.A.tbd; path = usr/lib/libicucore.A.tbd; sourceTree = SDKROOT; };
 		4DE526A81ECD4A340059312E /* RNHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNHeap.h; sourceTree = "<group>"; };
 		4DE526A91ECD4A340059312E /* RNHeap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNHeap.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4086A5222006A541008B64F8 /* libicucore.A.tbd in Frameworks */,
+				4086A5202006A541008B64F8 /* libicucore.tbd in Frameworks */,
 				4086A4B720069719008B64F8 /* libHeap.a in Frameworks */,
 				4086A4C02006990B008B64F8 /* CFNetwork.framework in Frameworks */,
 				4086A4C120069911008B64F8 /* Foundation.framework in Frameworks */,
@@ -82,6 +87,7 @@
 		4086A4B82006986D008B64F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4086A5212006A541008B64F8 /* libicucore.A.tbd */,
 				4086A4BE200698B9008B64F8 /* UIKit.framework */,
 				4086A4BD200698B2008B64F8 /* SystemConfiguration.framework */,
 				4086A4BC200698A0008B64F8 /* Security.framework */,
@@ -196,7 +202,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -236,7 +242,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
